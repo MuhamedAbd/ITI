@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#container{
+    background-color: rgb(223, 206, 61);
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.sect{
+    width: 200px;
+    height: 100px;
+    border: 1px solid rgb(180, 81, 35);
+    /* text-align:center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sect0{
+    flex: 2;
+}
+#sect1{
+    flex: 4;
+}
+#sect2{
+    flex: 6;
+}
+#sect3{
+    flex: 3;  
+}
